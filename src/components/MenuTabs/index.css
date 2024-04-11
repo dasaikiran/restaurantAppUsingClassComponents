@@ -1,0 +1,32 @@
+.menu-tab {
+  display: flex;
+  margin-right: 15px;
+}
+
+@media screen and (max-width:768px){
+  .menu-tab{
+    min-width: 200px;
+  }
+}
+
+.tab-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+  background-color: transparent;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.active-class {
+  color: rgb(200, 28, 28);
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-color: rgb(200, 28, 28);
+}
+.menu-name {
+  font-size: 15px;
+  font-weight: 600;
+}

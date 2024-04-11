@@ -1,0 +1,15 @@
+.menu-tab-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 0px;
+  overflow-x: auto;
+  max-width: 900px;
+  min-width: 100%;
+}
+
+.dishes-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
